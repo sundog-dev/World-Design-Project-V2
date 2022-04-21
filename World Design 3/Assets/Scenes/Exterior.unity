@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18962392, g: 0.21969971, b: 0.24363965, a: 1}
+  m_IndirectSpecularColor: {r: 0.18962789, g: 0.21970156, b: 0.24364284, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10445,8 +10445,32 @@ PrefabInstance:
       value: Waterfall
       objectReference: {fileID: 0}
     - target: {fileID: 6105898511534457787, guid: 8bfe1bee1735c0f45b965a360014a42e, type: 3}
+      propertyPath: RotationModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105898511534457787, guid: 8bfe1bee1735c0f45b965a360014a42e, type: 3}
+      propertyPath: RotationModule.x.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105898511534457787, guid: 8bfe1bee1735c0f45b965a360014a42e, type: 3}
       propertyPath: VelocityModule.z.scalar
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105898511534457787, guid: 8bfe1bee1735c0f45b965a360014a42e, type: 3}
+      propertyPath: InitialModule.rotation3D
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105898511534457787, guid: 8bfe1bee1735c0f45b965a360014a42e, type: 3}
+      propertyPath: RotationModule.curve.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105898511534457787, guid: 8bfe1bee1735c0f45b965a360014a42e, type: 3}
+      propertyPath: RotationModule.separateAxes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105898511534457787, guid: 8bfe1bee1735c0f45b965a360014a42e, type: 3}
+      propertyPath: InitialModule.startRotationX.scalar
+      value: -1.5707963
       objectReference: {fileID: 0}
     - target: {fileID: 6105898511534457788, guid: 8bfe1bee1735c0f45b965a360014a42e, type: 3}
       propertyPath: m_RootOrder
@@ -10462,11 +10486,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6105898511534457788, guid: 8bfe1bee1735c0f45b965a360014a42e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 718.5
+      value: 722
       objectReference: {fileID: 0}
     - target: {fileID: 6105898511534457788, guid: 8bfe1bee1735c0f45b965a360014a42e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 79
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 6105898511534457788, guid: 8bfe1bee1735c0f45b965a360014a42e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10593,7 +10617,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540183711}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 691, y: 1.31, z: 658}
+  m_LocalPosition: {x: 691, y: 2, z: 658}
   m_LocalScale: {x: 5, y: 1, z: 7}
   m_Children:
   - {fileID: 1731911084}
@@ -10894,7 +10918,7 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 0160babfe9720e2488bb975d235c9030, type: 2}
-  m_TreeDistance: 500
+  m_TreeDistance: 1214
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
@@ -11102,7 +11126,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 1500
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -11128,13 +11152,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036330770}
-  m_LocalRotation: {x: 0.050554328, y: -0.596135, z: 0.01933375, w: 0.8010578}
-  m_LocalPosition: {x: 157, y: 52, z: 666}
+  m_LocalRotation: {x: 0.28412935, y: 0.5504442, z: -0.29474834, w: 0.72760236}
+  m_LocalPosition: {x: 4, y: 441, z: 366}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 5.972, y: -73.4, z: -1.688}
+  m_LocalEulerAnglesHint: {x: 47.557, y: 69.842, z: -9.908}
 --- !u!114 &2036330775
 MonoBehaviour:
   m_ObjectHideFlags: 0
