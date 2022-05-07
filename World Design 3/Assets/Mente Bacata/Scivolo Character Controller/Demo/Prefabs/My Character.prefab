@@ -294,9 +294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7891d45af59ea86488119e7d5bc93b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalOffset: 0
-  height: 2
-  radius: 0.5
+  verticalOffset: -0.5
+  height: 3
+  radius: 1
   contactOffset: 0.01
   prioritizedOverlap:
     serializedVersion: 2
